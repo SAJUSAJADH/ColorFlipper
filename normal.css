@@ -1,0 +1,82 @@
+.navbar{
+    background: #B0E0E6;
+    height:60px;
+    width:100%;
+}
+#clf{
+    margin-left: 10px;
+    color:snow;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#clf:hover{
+    color:teal;
+}
+#nml{
+    position:relative;
+    margin-left:450px;
+    color:teal;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#hx{
+    position:relative;
+    margin-left:80px;
+    color:snow;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#hx:hover{
+    color:teal;
+}
+@media (max-width:992px){
+    .navbar-brand a{
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bolder;
+    }
+    #nml{
+        color:teal;
+        font-size: small;
+        margin:0;
+        
+
+    }
+    #hx{
+        color:teal;
+        font-size: small;
+        margin-left:0;
+           
+    }
+    #bg h2{
+        font-size:x-large ;
+    }
+    .navbar{
+        width:100%;
+        height:150px;
+    }
+}
+section{
+    padding-top: 250px;
+}
+
+#bg{
+    text-align: center;
+}
+#btn{width: 134px;
+height: 45px;
+border-radius: 7px;
+border:2px solid #05d8f4;
+font-size:larger;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn:hover{
+    color:#05d8f4;
+    background:rgb(188, 219, 252);
+    cursor: pointer;
+}
